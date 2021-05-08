@@ -73,6 +73,6 @@ backup = darknet/data/backup-tiny
 `./darknet detector test data/obj.data cfg/yolov4-tiny.cfg  darknet/data/backup-tiny/yolov4-tiny_best.weights   測試圖片路徑 -i 0 -thresh 0.25`  
 使用攝影機進行辨識  
 `./darknet detector demo  cfg/yolov4-tiny.cfg  darknet/data/backup-tiny/yolov4-tiny_best.weights -c 0`
-
+![Image text](https://github.com/guizaida/IN-JETSON-NANO-MASKCHECK-USE-YOLOV4/blob/0b9cd81e17ecd3def6d169857d45b97a253f8d37/gif/test1.gif)   
 
 
