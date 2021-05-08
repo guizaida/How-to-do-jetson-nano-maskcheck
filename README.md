@@ -34,7 +34,7 @@ NVCC=/usr/local/cuda/bin/nvcc
 下載好後進行測試確認darkent有正確安裝  
 `./darknet detector test ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4.weights data/dog.jpg -i 0 -thresh 0.25`    
 如果成功安裝測試結果如下  
- ![Image text](https://github.com/guizaida/jetson-nano-mask-check/blob/1bb8e5c56f9c7cc087c1e1f397f62dfa44aee096/111.jpg)  
+ ![Image text](https://github.com/guizaida/How-to-do-jetson-nano-maskcheck/blob/31bb971b80d0a46909610c9327506a528ac685e5/img/111.jpg)  
 ## **建構口罩辨識模型**  
 ### 由於是在jetson nano上運行我們採用的模型是yolov4-tiny.cfg模型
 下載模型權重這個已經訓練好 29 層  
@@ -42,7 +42,7 @@ NVCC=/usr/local/cuda/bin/nvcc
 ## 準備訓練資料  
 下載圖片中有戴口罩的照片用lablImg標註資料或者前往公開圖庫下載以標記好的照片  
 如果是自行標註圖片在**lablImg**上記得選取yolo模式這樣就不再需要進行標籤轉換  
-![Image text](https://github.com/guizaida/jetson-nano-mask-check/blob/86f4bfee16fb47b94e1345b3ea0b6a4bb2fbe7e9/112.jpg)    
+![Image text](https://github.com/guizaida/How-to-do-jetson-nano-maskcheck/blob/31bb971b80d0a46909610c9327506a528ac685e5/img/112.jpg)    
 在darkenk/data裡面創一個資料夾(自行命名)將剛剛標記好或者下載的圖片與標籤放進去  
 複製一份圖片標籤檔放入darkenk/data/labels  
 使用imgcut.py將訓練資料分割  
