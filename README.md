@@ -40,7 +40,7 @@ NVCC=/usr/local/cuda/bin/nvcc
 下載模型權重這個已經訓練好 29 層  
 `wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.conv.29` 
 ## 準備訓練資料  
-下載圖片中有戴口罩的照片用lablImg標註資料或者前往公開圖庫下載以標記好的照片  
+下載圖片中有戴口罩的照片，用lablImg標註資料或者前往公開圖庫下載以標記好的照片  
 如果是自行標註圖片在**lablImg**上記得選取yolo模式這樣就不再需要進行標籤轉換  
 ![Image text](https://github.com/guizaida/How-to-do-jetson-nano-maskcheck/blob/31bb971b80d0a46909610c9327506a528ac685e5/img/112.jpg)    
 在darkenk/data裡面創一個資料夾(自行命名)將剛剛標記好或者下載的圖片與標籤放進去  
