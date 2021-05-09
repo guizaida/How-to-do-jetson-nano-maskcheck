@@ -46,7 +46,7 @@ NVCC=/usr/local/cuda/bin/nvcc
 在darkenk/data裡面創一個資料夾(自行命名)將剛剛標記好或者下載的圖片與標籤放進去  
 複製一份圖片標籤檔放入darkenk/data/labels  
 使用imgcut.py將訓練資料分割  
-## **修改yolov4-tiny.cfg**  
+## **修改YOLOv4-tiny.cfg**  
 打開改YOLOv4-tiny.cfg進行以下修改  
 batch=16 原本是64用jetson nano 進行訓練的話會過載所以設小一點  
 subdivisions=2  
