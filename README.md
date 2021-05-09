@@ -64,7 +64,7 @@ valid = test.txt的路徑
 names = obj.names的路徑  
 backup = darknet/data/backup-tiny  
 ## **開始訓練**  
-如有安裝風扇記得開啟jtop打開
+如有安裝風扇記得開啟jtop打開  
 在darknet資料夾下開啟終端機輸入  
 `./darknet detector train data/obj.data cfg/yolov4-tiny.cfg ./yolov4-tiny.conv.29 -dont_show -map`  
 ## **驗證**
