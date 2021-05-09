@@ -54,9 +54,9 @@ max_batches=5000
 classes=2 有兩處都要修改    
 filters=21  有兩處值為255的改成21其他不變  
 ## **建構 obj.data , obg.name 檔案**  
-在draknet/data資料夾下創建obj.data跟obg.name兩個檔案分別輸入  
+在 draknet/data 資料夾下創建 obj.data 跟 obj.name 兩個檔案分別輸入  
 ### **obj.name**  
-複製圖片資料夾裡面classes.txt的內容  
+複製圖片資料夾裡面 classes.txt 的內容  
 ### **obj.data**
 classes = 2  
 train = train.txt的路徑   
